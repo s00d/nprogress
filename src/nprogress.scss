@@ -2,6 +2,8 @@ $blue: #29d;
 
 #nprogress {
   pointer-events: none;
+  position: relative;
+  z-index: 65535;
 
   .bar {
     background: $blue;
@@ -9,9 +11,8 @@ $blue: #29d;
     height: 2px;
     left: 0;
     position: fixed;
+    right: 0;
     top: 0;
-
-    width: 100%;
     z-index: 1031;
   }
 

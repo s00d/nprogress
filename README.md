@@ -91,12 +91,23 @@ const router = new VueRouter({
 })
 ```
 
+Contributing
+-------
+
+### Contribute using one click online setup
+
+You can use Gitpod(a free online VS-Code like IDE) for contributing. With a single click it will launch a workspace and automatically:
+
+- clone the nprogress repo.
+- install the dependencies.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/s00d/nprogress)
 
 ## Badges
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 ![](https://img.shields.io/badge/status-stable-green.svg)
-
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/s00d/nprogress)
 ---
 
 > GitHub [@s00d](https://github.com/s00d) &nbsp;&middot;&nbsp;
