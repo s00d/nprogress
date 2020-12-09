@@ -43,15 +43,21 @@ const app = new Vue({
   ...App
 })
 
-// APIs: see https://github.com/s00d/nprogress
-// app.nprogress
-// app.nprogress.start()
-// app.nprogress.inc(0.2)
-// app.nprogress.done()
-// Component:
+// APIs: see https://github.com/rstacruz/nprogress
 // this.$nprogress
+// this.$nprogress.start()
+// this.$nprogress.inc(0.2)
+// this.$nprogress.done()
 ```
 
+You can use only nprogress with ts
+```js
+import NProgress from 'vue-nprogress-ts/src/nprogress.ts'
+
+const np = new NSProgress()
+...
+// APIs: see https://github.com/rstacruz/nprogress
+```
 
 ## Configuration
 

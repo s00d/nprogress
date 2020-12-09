@@ -22,7 +22,7 @@ export default class Index {
     if (this.installed) return
     this.installed = true
 
-    const np = v.Progress = v.prototype.$nprogress =  new NSProgress
+    const np = v.Progress = v.prototype.$nprogress = new NSProgress
 
     const opt: {latencyThreshold: number, router:null|Router,http:boolean }  = Object.assign({}, defaults, options)
 
