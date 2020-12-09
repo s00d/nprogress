@@ -1,36 +1,38 @@
-# nprogress
+# nprogress-ts
 
-Slim progress bars is based on [nprogress](https://github.com/rstacruz/nprogress) for Ajax'y applications
+Slim progress bars is based on [nprogress-ts](https://github.com/s00d/nprogress) for Ajax'y applications
 
 
 ## Installation
 
 ```console
-$ npm install vue-nprogress --save
+$ npm install vue-nprogress-ts --save
 ```
 
 ## Examples
 
 ```vue
 <template>
-  <nprogress-container></nprogress-container>
+  <div class="nprogress-container"></div>
 </template>
 
 <script>
-import NprogressContainer from 'vue-nprogress/src/NprogressContainer'
-
 export default {
-  components: {
-    NprogressContainer
-  }
+  name: 'nprogress-container'
 }
 </script>
+
+<style lang="css">
+@import 'vue-nprogress-ts/lib/nprogress.min.css'; 
+/* or scss  vue-nprogress-ts/src/nprogress.scss */
+</style>
 ```
 
+vue 2 example
 ```js
 import Vue from 'vue'
-import NProgress from 'vue-nprogress'
 import App from './App.vue'
+import NProgress from 'vue-nprogress-ts'
 
 Vue.use(NProgress)
 
@@ -41,7 +43,7 @@ const app = new Vue({
   ...App
 })
 
-// APIs: see https://github.com/rstacruz/nprogress
+// APIs: see https://github.com/s00d/nprogress
 // app.nprogress
 // app.nprogress.start()
 // app.nprogress.inc(0.2)
@@ -91,7 +93,8 @@ const router = new VueRouter({
 
 ---
 
-> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;
-> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;
-> Twitter [@_fundon](https://twitter.com/_fundon)
+> GitHub [@s00d](https://github.com/s00d) &nbsp;&middot;&nbsp;
+
+*   Big thanks to [`rstacruz/nprogress`](https://github.com/rstacruz/nprogress) to learn how to write the plugin.
+*   Big thanks to [`vue-bulma/nprogress`](https://github.com/vue-bulma/nprogress) to learn how to write the plugin.
 
